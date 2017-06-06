@@ -1,0 +1,16 @@
+/*imagenes de fondo que cambiaran almodificar la resolución de la pantalla*/
+
+@media (min-width: 535px) and (max-width:824px){
+	.caja-principal{
+	background-image: url(../asset/img/dawn.png);
+	}
+
+}
+
+@media (min-width: 200px) and (max-width: 534px){
+	.caja-principal{
+	background-image: url(../asset/img/maxresdefault.jpg);
+	}
+
+}
+	

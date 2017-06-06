@@ -1,18 +1,18 @@
 *{
-	margin: 0;
-	padding: 0px;
+	padding:0;
+	margin:0;
 }
 
-#gatito-fondo{
-	padding: 5%;
-}
-
-.landscape{
-	background-image: url(../asset/img/landscape.jpg);
+.caja-principal{
+	background-image: url(../asset/img/Landscape.jpg);	
+	width:100vw;/*background size cover no fue suficiente para llenar todo el fondo, aprendí que estas medidas se ajustan perfecto al fondo*/
+	height: 100vh;
+	justify-content: center;
 	background-size: cover;
-	background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
+	background-position: center;
+	align-items:flex-end;
 }
 
+.flex-container{
+	display:flex;
+}
